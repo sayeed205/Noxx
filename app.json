@@ -1,0 +1,71 @@
+{
+    "Name": "Noxxuserbot",
+    "Description": "A Telegram Userbot powered by Pyrogram",
+    "Keywords": [
+        "telegram",
+        "user_bot",
+        "productivity"
+    ],
+    "repository": "https://github.com/npv12/Noxx/",
+    "website": "#TODO",
+    "success_url": "https://github.com/npv12/Noxx/",
+    "stack": "container",
+    "env": {
+        "api_id": {
+            "description": "Get from my.telegram.org",
+            "value": ""
+        },
+        "api_hash": {
+            "description": "Get from my.telegram.org",
+            "value": ""
+        },
+        "USERBOT_SESSION": {
+            "description": "Generate from https://replit.com/@ErichDaniken/Generate-Telegram-String-Session",
+            "value": ""
+        },
+        "download_location": {
+            "description": "Leave as it is",
+            "value": "/usr/src/app/downloads"
+        },
+        "openweather_api": {
+            "description": "Get from https://openweathermap.org/api",
+            "value": ""
+        },
+        "sticker_pack_name": {
+            "description": "NAME OF A KANG PACK. Should start with an alphabet and should not have any special characters except '_'",
+            "value": ""
+        },
+        "mongo_url": {
+            "description": "Fill this after deploy",
+            "value": "",
+            "required": false
+        },
+        "db_name": {
+            "description": "Enter your fav name for db",
+            "value": "Noxx"
+        },
+        "pm_permit": {
+            "description": "Block unwanted Private Messages (True/False)",
+            "value": ""
+        },
+        "pm_limit": {
+            "description": "msg limit for PM",
+            "value": "5"
+        }
+    },
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "Noxx": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "addons": [{
+        "plan": "heroku-postgresql",
+        "options": {
+            "version": "12"
+        }
+    }]
+}
