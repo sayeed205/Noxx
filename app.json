@@ -56,7 +56,7 @@
         "url": "heroku/python"
     }],
     "formation": {
-        "Noxx": {
+        "worker": {
             "quantity": 1,
             "size": "free"
         }
