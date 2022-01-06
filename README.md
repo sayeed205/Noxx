@@ -9,6 +9,11 @@ Fill these into the [sample config file](noxx.ini.sample).
 3. Copy or rename [`noxx.ini.sample`](noxx.ini.sample) to `noxx.ini` and fill it out as instructed
 4. Start Noxx with `python -m noxx`
 
+# Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/sayeed205/Noxx)
+
+
 You can now log in via Pyrogram and send `.alive` to see if Noxx is working.
 
 ## Disclaimer
