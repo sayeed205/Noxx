@@ -9,7 +9,6 @@
     "repository": "https://github.com/npv12/Noxx/",
     "website": "#TODO",
     "success_url": "https://github.com/npv12/Noxx/",
-    "stack": "container",
     "env": {
         "api_id": {
             "description": "Get from my.telegram.org",
